@@ -24,7 +24,7 @@ Either run **../script/classification_cifar10.sh** to perform the MNIST binary c
 
 Either run **../script/classification_cifar10_rgb.sh** to perform the MNIST binary classification experiment, or integrate the configurations from the .sh file into **../real_world/classification.py** to run it directly.
 
-## Generate binary datasets (Optional)
+## (Optional) Generate binary datasets
 
 ### The datasets for the binary classification experiments already exists in the "datasets" folder and can be used directly. If you need to generate new data, please follow the steps below.
 
