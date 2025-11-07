@@ -10,7 +10,7 @@ Choose Python version **3.10.x**
 
 Run: **pip install -r requirements.txt**
 
-## Generate binaryn datasets
+## Generate binary datasets
 
 - MNIST (digit 0/1, 12 × 12 pixels)
 
