@@ -20,7 +20,11 @@ Run **../datasets_utils/mnist/generate_mnist_dataset.py** to generate the MNIST 
 
 - CIFAR-10-Gray (airplane/automobile, grayscale, 12×12 pixels)
 
+Run **../datasets_utils/mnist/generate_cifar10_gray_dataset.py** to generate the MNIST binary classification dataset. The data will be saved in the "datasets" folder.
+
 - CIFAR-10-RGB (airplane/automobile, RGB, 12×12 pixels)
+
+Run **../datasets_utils/mnist/generate_cifar10_rgb_dataset.py** to generate the MNIST binary classification dataset. The data will be saved in the "datasets" folder.
 
 ## Run binary classification experiments
 
