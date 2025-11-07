@@ -26,7 +26,7 @@ Either run **../script/classification_cifar10_rgb.sh** to perform the MNIST bina
 
 ## (Optional) Generate binary datasets
 
-### The datasets for the binary classification experiments already exists in the "datasets" folder and can be used directly. If you need to generate new data, please follow the steps below.
+### The datasets for the binary classification experiments already exist in the "datasets" folder and can be used directly. If you need to generate new data, please follow the steps below.
 
 <img width="544" height="365" alt="Screenshot from 2025-11-07 21-10-42" src="https://github.com/user-attachments/assets/8ea93a76-0c16-41d9-a690-f6067300aa35" />
 
