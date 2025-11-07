@@ -10,7 +10,23 @@ Choose Python version **3.10.x**
 
 Run **pip install -r requirements.txt**
 
-## Generate binary datasets
+## Run binary classification experiments
+
+- MNIST (digit 0/1, 12×12 pixels)
+
+Run **../script/classification_mnist.sh** to perform the MNIST binary classification experiment, or integrate the configurations from the .sh file into **../real_world/classification.py** to run it directly.
+
+- CIFAR-10-Gray (airplane/automobile, grayscale, 12×12 pixels)
+
+Run **../script/classification_cifar10.sh** to perform the MNIST binary classification experiment, or integrate the configurations from the .sh file into **../real_world/classification.py** to run it directly.
+
+- CIFAR-10-RGB (airplane/automobile, RGB, 12×12 pixels)
+
+Run **../script/classification_cifar10_rgb.sh** to perform the MNIST binary classification experiment, or integrate the configurations from the .sh file into **../real_world/classification.py** to run it directly.
+
+## Generate binary datasets (OPTIONAL)
+
+### The dataset for the binary classification experiment already exists in the datasets folder and can be used directly. If you need to generate new data, please follow the steps below.
 
 <img width="544" height="365" alt="Screenshot from 2025-11-07 21-10-42" src="https://github.com/user-attachments/assets/8ea93a76-0c16-41d9-a690-f6067300aa35" />
 
@@ -25,17 +41,3 @@ Run **../datasets_utils/mnist/generate_cifar10_gray_dataset.py** to generate the
 - CIFAR-10-RGB (airplane/automobile, RGB, 12×12 pixels)
 
 Run **../datasets_utils/mnist/generate_cifar10_rgb_dataset.py** to generate the MNIST binary classification dataset. The data will be saved in the "datasets" folder.
-
-## Run binary classification experiments
-
-- MNIST (digit 0/1, 12×12 pixels)
-
-Run **../script/classification_mnist.sh** to perform the MNIST binary classification experiment, or integrate the configurations from the .sh file into **../real_world/classification.py** to run it directly.
-
-- CIFAR-10-Gray (airplane/automobile, grayscale, 12×12 pixels)
-
-Run **../script/classification_cifar10.sh** to perform the MNIST binary classification experiment, or integrate the configurations from the .sh file into **../real_world/classification.py** to run it directly.
-
-- CIFAR-10-RGB (airplane/automobile, RGB, 12×12 pixels)
-
-Run **../script/classification_cifar10_rgb.sh** to perform the MNIST binary classification experiment, or integrate the configurations from the .sh file into **../real_world/classification.py** to run it directly.
