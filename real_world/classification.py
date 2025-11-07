@@ -24,6 +24,7 @@ from model import DataReuploading
 from metric import Metrics
 from train_utils import ClassificationTrainer
 import wandb
+os.environ["WANDB_MODE"] = "offline"    # 设置 wandb 为离线模式
 
 
 jax.config.update('jax_platform_name', 'cpu')
