@@ -8,11 +8,15 @@ https://arxiv.org/abs/2505.20337
 
 Choose Python version **3.10.x**
 
-Run: **pip install -r requirements.txt**
+Run **pip install -r requirements.txt**
 
 ## Generate binary datasets
 
+<img width="544" height="365" alt="Screenshot from 2025-11-07 21-10-42" src="https://github.com/user-attachments/assets/8ea93a76-0c16-41d9-a690-f6067300aa35" />
+
 - MNIST (digit 0/1, 12×12 pixels)
+
+Run **../datasets_utils/mnist/generate_mnist_dataset.py** to generate the MNIST binary classification dataset. The data will be saved in the "datasets" folder.
 
 - CIFAR-10-Gray (airplane/automobile, grayscale, 12×12 pixels)
 
