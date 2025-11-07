@@ -12,7 +12,7 @@ Run: **pip install -r requirements.txt**
 
 ## Generate binary datasets
 
-- MNIST (digit 0/1, 12 × 12 pixels)
+- MNIST (digit 0/1, 12×12 pixels)
 
 - CIFAR-10-Gray (airplane/automobile, grayscale, 12×12 pixels)
 
