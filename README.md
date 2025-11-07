@@ -16,7 +16,7 @@ Run **pip install -r requirements.txt**
 
 Either run **../script/classification_mnist.sh** to perform the MNIST binary classification experiment, or integrate the configurations from the .sh file into **../real_world/classification.py** to run it directly.
 
-<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/921db61f-0daf-48e9-8531-c40ea5e8fa01" />
+<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/f4878318-b50c-4f37-9859-ee54f4e1dc95" />
 
 - CIFAR-10-Gray (airplane/automobile, grayscale, 12×12 pixels)
 
