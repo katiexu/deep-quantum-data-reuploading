@@ -1,6 +1,6 @@
 # How to use the code?
 
-Original paper: _"Predictive Performance of Deep Quantum Data Re-uploading Models"_
+Original paper _"Predictive Performance of Deep Quantum Data Re-uploading Models"_
 
 https://arxiv.org/abs/2505.20337
 
