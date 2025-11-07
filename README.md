@@ -1,4 +1,4 @@
-How to use the code?
+# How to use the code?
 
 Original Paper _"Predictive Performance of Deep Quantum Data Re-uploading Models"_
 https://arxiv.org/abs/2505.20337
