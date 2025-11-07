@@ -10,6 +10,8 @@ Choose Python version **3.10.x**
 
 Run **pip install -r requirements.txt**
 
+<!--
+
 ## Generate binary datasets
 
 <img width="544" height="365" alt="Screenshot from 2025-11-07 21-10-42" src="https://github.com/user-attachments/assets/8ea93a76-0c16-41d9-a690-f6067300aa35" />
@@ -25,6 +27,8 @@ Run **../datasets_utils/mnist/generate_cifar10_gray_dataset.py** to generate the
 - CIFAR-10-RGB (airplane/automobile, RGB, 12×12 pixels)
 
 Run **../datasets_utils/mnist/generate_cifar10_rgb_dataset.py** to generate the MNIST binary classification dataset. The data will be saved in the "datasets" folder.
+
+-->
 
 ## Run binary classification experiments
 
