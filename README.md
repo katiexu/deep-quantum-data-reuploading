@@ -4,6 +4,8 @@ Original paper _"Predictive Performance of Deep Quantum Data Re-uploading Models
 
 https://arxiv.org/abs/2505.20337
 
+<img width="2429" height="1021" alt="image" src="https://github.com/user-attachments/assets/fcfd945f-a45b-4f8d-8b1d-fe662b6f4ce3" />
+
 ## Set up the Python environment
 
 Choose Python version **3.10.x**
