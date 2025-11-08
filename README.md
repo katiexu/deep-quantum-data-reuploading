@@ -24,8 +24,6 @@ Either run **../script/classification_mnist.sh** to perform the MNIST binary cla
 
 Either run **../script/classification_cifar10.sh** to perform the CIFAR-10 (Gray) binary classification experiment, or integrate the configurations from the .sh file into **../real_world/classification.py** to run it directly.
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/83312929-1e86-437a-8420-7fcbef4a71ab" />
-
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/1bc17cfd-5c9d-4394-b92f-a85e563873cd" />
 
 - CIFAR-10-RGB (airplane/automobile, RGB, 12×12 pixels)
