@@ -6,6 +6,7 @@ https://arxiv.org/abs/2505.20337
 
 <img width="2000" height="1000" alt="image" src="https://github.com/user-attachments/assets/fcfd945f-a45b-4f8d-8b1d-fe662b6f4ce3" />
 
+
 ## Set up the Python environment
 
 Choose Python version **3.10.x**
@@ -20,11 +21,13 @@ Either run **../script/classification_mnist.sh** to perform the MNIST binary cla
 
 <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/f4878318-b50c-4f37-9859-ee54f4e1dc95" />
 
+
 2) CIFAR-10-Gray (airplane/automobile, grayscale, 12×12 pixels)
 
 Either run **../script/classification_cifar10.sh** to perform the CIFAR-10 (Gray) binary classification experiment, or integrate the configurations from the .sh file into **../real_world/classification.py** to run it directly.
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/1bc17cfd-5c9d-4394-b92f-a85e563873cd" />
+
 
 3) CIFAR-10-RGB (airplane/automobile, RGB, 12×12 pixels)
 
