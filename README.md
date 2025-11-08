@@ -30,6 +30,9 @@ Either run **../script/classification_cifar10.sh** to perform the CIFAR-10 (Gray
 
 Either run **../script/classification_cifar10_rgb.sh** to perform the CIFAR-10 (RGB) binary classification experiment, or integrate the configurations from the .sh file into **../real_world/classification.py** to run it directly.
 
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/d875a333-0e17-4314-90ef-9cd2c90a8399" />
+
+
 ## (Optional) Generate binary datasets
 
 ### The datasets for the binary classification experiments already exist in the "datasets" folder and can be used directly. If you need to generate new data, please follow the steps below.
