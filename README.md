@@ -22,11 +22,11 @@ Either run **../script/classification_mnist.sh** to perform the MNIST binary cla
 
 - CIFAR-10-Gray (airplane/automobile, grayscale, 12×12 pixels)
 
-Either run **../script/classification_cifar10.sh** to perform the CIFAR10 (gray) binary classification experiment, or integrate the configurations from the .sh file into **../real_world/classification.py** to run it directly.
+Either run **../script/classification_cifar10.sh** to perform the CIFAR-10 (Gray) binary classification experiment, or integrate the configurations from the .sh file into **../real_world/classification.py** to run it directly.
 
 - CIFAR-10-RGB (airplane/automobile, RGB, 12×12 pixels)
 
-Either run **../script/classification_cifar10_rgb.sh** to perform the CIFAR10 (RGB) binary classification experiment, or integrate the configurations from the .sh file into **../real_world/classification.py** to run it directly.
+Either run **../script/classification_cifar10_rgb.sh** to perform the CIFAR-10 (RGB) binary classification experiment, or integrate the configurations from the .sh file into **../real_world/classification.py** to run it directly.
 
 ## (Optional) Generate binary datasets
 
@@ -40,8 +40,8 @@ Run **../datasets_utils/mnist/generate_mnist_dataset.py** to generate the MNIST 
 
 - CIFAR-10-Gray (airplane/automobile, grayscale, 12×12 pixels)
 
-Run **../datasets_utils/cifar_10_gray/generate_cifar10_gray_dataset.py** to generate the MNIST binary classification dataset. The data will be saved in the "datasets" folder.
+Run **../datasets_utils/cifar_10_gray/generate_cifar10_gray_dataset.py** to generate the CIFAR-10 (Gray) binary classification dataset. The data will be saved in the "datasets" folder.
 
 - CIFAR-10-RGB (airplane/automobile, RGB, 12×12 pixels)
 
-Run **../datasets_utils/cifar_10_rgb/generate_cifar10_rgb_dataset.py** to generate the MNIST binary classification dataset. The data will be saved in the "datasets" folder.
+Run **../datasets_utils/cifar_10_rgb/generate_cifar10_rgb_dataset.py** to generate the CIFAR-10 (RGB) binary classification dataset. The data will be saved in the "datasets" folder.
