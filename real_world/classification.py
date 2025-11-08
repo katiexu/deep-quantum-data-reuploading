@@ -158,17 +158,17 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     n_qubits = args.n_qubits
-    n_layers = args.n_layers  
+    n_layers = args.n_layers    # number of data encoding layers (L)  
     max_layers = args.max_layers
-    n_reps = args.n_reps
-    n_samples = args.n_samples
+    n_reps = args.n_reps    # number of repetitions (P)
+    n_samples = args.n_samples    # number of the training set
     batch_size = args.batch_size
     lr = args.lr
-    n_epochs = args.n_epochs
-    n_repeats = args.n_repeats
+    n_epochs = args.n_epochs    # number of training epochs
+    n_repeats = args.n_repeats    # number of independent runs with different random seeds
     seed = args.seed
     data_type = args.data_type
-    n_test = args.n_test
+    n_test = args.n_test    # number of the test set
     
     
     config = {
